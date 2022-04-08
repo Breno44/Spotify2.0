@@ -19,8 +19,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/components/Sidebar.tsx",
-    "src/pages/api/auth/[...nextauth].js"
+    "src/components/Sidebar.jsx",
+    "src/pages/api/auth/[...nextauth].js",
+    "src/pages/login.jsx",
+    "src/lib/spotify.js"
   ],
   "exclude": ["node_modules"]
 }
