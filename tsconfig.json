@@ -22,7 +22,8 @@
     "src/components/Sidebar.jsx",
     "src/pages/api/auth/[...nextauth].js",
     "src/pages/login.jsx",
-    "src/lib/spotify.js"
+    "src/lib/spotify.js",
+    "src/pages/index.jsx"
   ],
   "exclude": ["node_modules"]
 }
