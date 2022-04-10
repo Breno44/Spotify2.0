@@ -11,7 +11,7 @@ export default function Login({ providers }) {
             className="rounded-full bg-[#18D860] p-5 text-white"
             onClick={() => signIn(provider.id, { callbackUrl: '/' })}
           >
-            Login with {provider.name}{' '}
+            Login with {provider.name}
           </button>
         </div>
       ))}
