@@ -11,6 +11,6 @@ export async function middleware(req) {
   }
 
   if (!token && pathname !== '/login') {
-    return NextResponse.redirect('http://spotify2-0-gray.vercel.app')
+    return NextResponse.redirect('/login')
   }
 }
